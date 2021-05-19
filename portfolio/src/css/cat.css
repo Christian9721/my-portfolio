@@ -1,0 +1,488 @@
+/*CAT*/
+.root-cat{
+  width: -webkit-fill-available;
+    height: 100%;
+    background: #141414;
+    position: absolute;
+}
+.advice-atom{
+     margin: 20px 0 15px 5px;
+    color: whitesmoke;
+    letter-spacing: 3px;
+    font-variant: petite-caps;
+    background: #141414;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    align-self: flex-start;
+}
+.the-arrow{
+  width: 220px;
+  position: relative;
+  top: 46px;
+  left: 180px;
+  height: 1px;
+  background-color: white;
+  z-index: 40;
+  mix-blend-mode: difference;
+}
+.the-arrow::after{
+  content: '➤';
+  color: white;
+  position: absolute;
+  right: -3px;
+  top: -11px;
+  z-index: 10;
+}
+.advice-atom p{margin: 0;}
+.catbox{
+  position: relative; 
+  transform: scale(1.5); 
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+/*.catbox:hover{
+  cursor: url("../images/cat/measure.svg ") 16 16 ,auto;
+}*/
+.top{
+    position: relative;
+    width: 100px;
+    height: 100%;
+    left: 0;
+    z-index: 4;
+    pointer-events: none;
+}
+.middle{
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    left: 0;
+    z-index: 7;
+    pointer-events: none;
+}
+.bottom{
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    left: 0;
+    z-index: 5;
+    pointer-events: none;
+}
+.live{
+    position: absolute;
+    width: 100px;
+    z-index: 6;
+    top: 5px;
+    transform-origin: bottom;
+    pointer-events: none;
+    animation: live-anim 7s ease-in-out infinite forwards;
+}
+.liveafter{
+  background-image: url('../images/cat/universe.jpg');
+  height: 135%;
+    width: 135%;
+    position: fixed;
+    z-index: 17;
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: lighten;
+    filter: grayscale(0.2) hue-rotate(300deg);
+    border-radius: 50%;
+    left: -20px;
+    top: -20px;
+  animation: animatedBackground 60s linear infinite forwards;
+  opacity: 0.9;
+  pointer-events: none;
+}
+@keyframes animatedBackground {
+  0% {
+    filter: grayscale(0.2) hue-rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    filter: grayscale(0.2) hue-rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.dead{
+    position: absolute;
+    width: 100px;
+    z-index: 8;
+    top: 45px;
+    transform-origin: top;
+    pointer-events: none;
+    animation: dead-anim 7s ease-in-out infinite forwards;
+}
+
+@keyframes dead-anim{
+    0%{
+        transform: rotate(0deg) translateY(8px);
+    }
+    50%{
+        transform: rotate(-150deg) translateY(-8px);
+    }
+    100%{
+        transform: rotate(0deg) translateY(8px);
+    }
+}
+@keyframes live-anim{
+    0%{
+        transform: rotate(0deg) translateY(-8px);
+    }
+    50%{
+        transform: rotate(-150deg) translateY(8px);
+    }
+    100%{
+        transform: rotate(0deg) translateY(-8px);
+    }
+}
+
+.mayenlogo{
+  width: 100px; 
+  border: solid white; 
+  border-radius: 50%;
+  transition: 1s;
+  opacity: 0.9;
+}
+.mayenlogo:hover{
+  transform: scale(1.1);
+  opacity: 1;
+}
+.infochannel{
+  margin: 35px 15px 10px 15px;
+  text-align: center;
+  padding: 10px;
+  border-style: solid dashed;
+  border-color: #141414;
+  transition: 1s;
+}
+.infochannel:hover{
+  cursor: auto !important;
+}
+.infochannel h4{
+  color: #141414;
+  font-weight: 900;
+  display: grid;
+  letter-spacing: 5px;
+  -webkit-text-stroke: thin;
+  cursor: context-menu;
+  -webkit-text-stroke-color: #141414;
+}
+.infochannel a{
+  margin-top: 5px;
+  padding: 3px 5px 3px 5px;
+  color: white;
+  background-color: #141414;
+  border-radius: 5px;
+}
+.infochannel a:hover{
+  cursor: pointer !important;
+}
+
+.catbox::before{
+  content: '';
+  position: absolute;
+  width: 140px;
+  top: -22px;
+  height: 140px;
+  background: white;
+  border-radius: 50%;
+  bottom: 0;
+  left: -22px;
+  right: 0;
+}
+/*ATOM BEFORE*/
+
+.atom-before{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 0;
+    top: 47%;
+    right: 47%;
+    -webkit-animation: nucleus 1s infinite ease-in-out alternate 1s;
+            animation: nucleus 1s infinite ease-in-out alternate 1s;
+}
+.atom-before::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    clip: 10px;
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
+    background-color: white;
+    border-bottom-right-radius: 50%;
+    margin: 0;
+    top: 47%;
+    right: 47%;
+    position: fixed;
+    border-top-right-radius: 50%;
+    opacity: 0.6;
+    -webkit-animation: nucleusbefore 1s infinite ease-in-out alternate;
+            animation: nucleusbefore 1s infinite ease-in-out alternate;
+}
+.atom-before::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    clip: 10px;
+    clip-path: polygon(50% 50%, 0 50%, 0 100%, 50% 100%);
+    background-color: white;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    margin: 0;
+    top: 47%;
+    right: 47%;
+    position: fixed;   
+    -webkit-animation: nucleusbefore 2s infinite linear;
+            animation: nucleusbefore 2s infinite linear;
+}
+
+.atom-before > div {
+    border-radius: 50%;
+    border: 1px solid transparent;
+    transform-style: preserve-3d;
+    transform: rotateX(80deg) rotateY(20deg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: -16px;
+   /* -webkit-animation: orbits 2s infinite linear;
+    animation: orbits 2s infinite linear;*/
+  }
+
+  .atom-before > div:nth-of-type(2) {
+    transform: rotateX(-80deg) rotateY(20deg);
+  }
+  .atom-before > div:nth-of-type(2) > div,
+  .atom-before > div:nth-of-type(2) > div:after {
+    -webkit-animation-delay: -0.5s;
+            animation-delay: -0.5s;
+  }
+  .atom-before > div:nth-of-type(3) {
+    transform: rotateX(-70deg) rotateY(60deg);
+  }
+  .atom-before  > div:nth-of-type(3) > div,
+  .atom-before > div:nth-of-type(3) > div:after {
+    -webkit-animation-delay: -1s;
+            animation-delay: -1s;
+  }
+  .atom-before > div:nth-of-type(4) {
+    transform: rotateX(70deg) rotateY(60deg);
+  }
+  .atom-before > div:nth-of-type(4) > div,
+  .atom-before > div:nth-of-type(4) > div:after {
+    -webkit-animation-delay: -1.5s;
+            animation-delay: -1.5s;
+  }
+  .atom-before > div > div {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    transform-style: preserve-3d;
+    -webkit-animation: trail_ 2s infinite linear;
+            animation: trail_ 2s infinite linear;
+  }
+  .atom-before > div > div:after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    box-shadow: 0 0 12px black;
+    left: 50%;
+    margin-left: -5px;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: black;
+    -webkit-animation: particle_ 2s infinite linear;
+            animation: particle_ 2s infinite linear;
+  }
+  
+  @-webkit-keyframes trail_ {
+    0%, 25%, 40%, 75%, 90% {
+      transform: rotateZ(0deg);
+    }
+    5%, 27%, 35%, 50%, 80%, 95%, 100% {
+      transform: rotateZ(360deg);
+    }
+  }
+  
+  @keyframes trail_ {
+    0%, 25%, 40%, 75%, 90%  {
+      transform: rotateZ(0deg);
+    }
+    5%, 27%, 35%, 50%, 80%, 95%, 100% {
+      transform: rotateZ(360deg);
+    }
+  }
+  @-webkit-keyframes particle_ {
+    from {
+      transform: rotateX(90deg) rotateY(0deg);
+    }
+    to {
+      transform: rotateX(90deg) rotateY(-360deg);
+    }
+  }
+  @keyframes particle_ {
+    from {
+      transform: rotateX(90deg) rotateY(0deg);
+    }
+    to {
+      transform: rotateX(90deg) rotateY(-360deg);
+    }
+  }
+  @keyframes nucleusbefore{
+      0%{
+          opacity: 0.1;
+        transform: rotate(0deg);
+      }
+      20%,60%{
+        opacity: 0.2;
+      }
+      30% , 70%{
+        opacity: 1;
+      }
+      40%{
+        transform: rotate(-90deg);
+        opacity: 0.5;
+      }
+      50% , 90%{
+        opacity: 0.4;
+      }
+      80%{
+        opacity: 0.3;
+      }
+      100%{
+        opacity: 0.6;
+        transform: rotate(360deg);
+      }
+  }
+  @keyframes nucleus{
+      0%{
+        background-color: black;      
+        box-shadow: 0px 0px 5px 2px black; 
+      }
+      25%{
+        background-color: rgba(0, 0, 0, 0.623);
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.623);
+      }
+      50%{
+        background-color: rgba(0, 0, 0, 0.233);
+        box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.788);
+      }
+      75%{
+        background-color: rgba(27, 27, 27, 0.753);
+        box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.699);
+      }
+      100%{
+        background-color: black;
+        box-shadow: 0px 0px 5px 2px black;
+      }
+  }
+
+  /*ATOM AFTER*/
+
+  .atom-after{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 0;
+    top: 47%;
+    right: 47%;
+}
+
+.atom-after > div {
+    border-radius: 50%;
+    border: 1px solid transparent;
+    transform-style: preserve-3d;
+    transform: rotateX(80deg) rotateY(20deg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: -16px;
+  }
+
+  .atom-after > div:nth-of-type(2) {
+    transform: rotateX(-80deg) rotateY(20deg);
+  }
+  .atom-after > div:nth-of-type(2) > div,
+  .atom-after > div:nth-of-type(2) > div:after {
+    -webkit-animation-delay: -0.5s;
+            animation-delay: -0.5s;
+  }
+  .atom-after > div:nth-of-type(3) {
+    transform: rotateX(-70deg) rotateY(60deg);
+  }
+  .atom-after  > div:nth-of-type(3) > div,
+  .atom-after > div:nth-of-type(3) > div:after {
+    -webkit-animation-delay: -1s;
+            animation-delay: -1s;
+  }
+  .atom-after > div:nth-of-type(4) {
+    transform: rotateX(70deg) rotateY(60deg);
+  }
+  .atom-after > div:nth-of-type(4) > div,
+  .atom-after > div:nth-of-type(4) > div:after {
+    -webkit-animation-delay: -1.5s;
+            animation-delay: -1.5s;
+  }
+  .atom-after > div > div {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    transform-style: preserve-3d;
+    -webkit-animation: trail_after 2s infinite linear;
+            animation: trail_after 2s infinite linear;
+  }
+  .atom-after > div > div:after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    box-shadow: 0 0 12px black;
+    left: 50%;
+    margin-left: -5px;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: black;
+    -webkit-animation: particle_after 2s infinite linear;
+            animation: particle_after 2s infinite linear;
+  }
+  
+  @-webkit-keyframes trail_after {
+    from {
+      transform: rotateZ(0deg);
+    }
+    to {
+      transform: rotateZ(360deg);
+    }
+  }
+  
+  @keyframes trail_after {
+    from  {
+      transform: rotateZ(0deg);
+    }
+    to {
+      transform: rotateZ(360deg);
+    }
+  }
+  @-webkit-keyframes particle_after {
+    from {
+      transform: rotateX(90deg) rotateY(0deg);
+    }
+    to {
+      transform: rotateX(90deg) rotateY(-360deg);
+    }
+  }
+  @keyframes particle_after {
+    from {
+      transform: rotateX(90deg) rotateY(0deg);
+    }
+    to {
+      transform: rotateX(90deg) rotateY(-360deg);
+    }
+  }

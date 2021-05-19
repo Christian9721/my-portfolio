@@ -1,0 +1,403 @@
+{
+    "C#":
+    {
+        "text":"It is one of my favorite programming languages, I have used it both in personal projects and in companies.",
+        "companny_list":[],       
+        "description":"It is a multi-paradigm programming language developed and standardized by Microsoft as part of its .NET platform.",
+        "years":4,
+        "exp":90,
+        "desc":"I handle this language at an advanced level: polymorphism, abstraction, interfaces, generics, multithreading etc.",
+        "projects": 
+        [
+            {
+                "name":"KeyLogger",
+                "description":"I made a keylogger for Windows.",
+                "url":"",
+                "img":
+                [
+                    "./images/c_sharp/keylogger.png"
+                ]
+            }
+        ]
+    },
+    "HTML":
+    {
+        "text":"I have been using HTML since I was in college, I have used it for different projects.",
+        "companny_list":[],
+        "description":"HyperText Markup Language (HTML) is the set of markup symbols or codes inserted into a file intended for display on the Internet.",
+        "years":3,
+        "exp":90,
+        "desc":"",
+        "projects":
+        [
+            {
+                "name":"mayen-studios.com",
+                "description":"This is my personal web to show my projects.",
+                "url":"https://mayen-studios.github.io/Home/",
+                "img":
+                [
+                    "./images/html/web1.png"
+                ]
+            }
+        ]
+        
+    },
+    "CSS":
+    {
+        "text":"I have used CSS as well as processors to style my web pages and apps.",
+        "companny_list":[],
+        "description":"CSS stands for Cascading Style Sheets. CSS describes how HTML elements are to be displayed on screen, paper, or in other media",
+        "years":3,
+        "exp":90,
+        "desc":"",
+        "projects":[]
+    },
+    "Javascript":
+    {
+        "text":"Javascript is one of the most flexible languages I've ever used: Web, Apps, Video games... your imagination is the limit !",
+        "companny_list":[],
+        "description":"JavaScript is a scripting or programming language that allows you to implement complex features on web pages.",
+        "years":3,
+        "exp":80,
+        "desc":"Is one of the languages that I like the most, the libraries that the community creates around this language are spectacular.",
+        "projects":[]
+    },
+    "Flutter":
+    {
+        "text":"Flutter is an amazing framework for developing native apps.",
+        "companny_list":[],
+        "description":"Flutter is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.",
+        "years":2,
+        "exp":90,
+        "desc":"I have used it for personal projects, from designing interfaces to creating the concept of an app",
+        "projects":
+        [
+            {
+                "name":"Pet Finder",
+                "description":"This app (WIP) allows to find your pet, find shops, post, chat and more.",
+                "url":"",
+                "img":
+                [
+                    "./images/flutter/pet1.png",
+                    "./images/flutter/pet2.png",
+                    "./images/flutter/pet3.png",
+                    "./images/flutter/pet4.png",
+                    "./images/flutter/pet5.png"
+                ]
+            }
+        ]       
+    },
+    "Dart":
+    {
+        "text":"Dart is an interesting language, I could notice a hybrid between C#, Java and Javascript, I have used it to create libraries for Flutter.",
+        "companny_list":[],
+        "description":"Dart is a client-optimized language for fast apps on any platform.",
+        "years":2,
+        "exp":50,
+        "desc":"In addition to Flutter, I have used Dart for work with ",
+        "projects":[]
+    },
+    "Git":
+    {
+        "text":"Since I started in the development world I found the need to find a solution to maintain versions of my projects, the solution was Git.",
+        "companny_list":
+        [            
+            {
+                "name":"UJED",
+                "img":
+                [
+                    "",
+                    "",
+                    ""
+                ],
+                "description":"We used git for version control and to separate frontend and backend logic.",
+                "tools":["Git", "VS Code","Github Desktop"]
+            }         
+        ],
+        "description":"Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
+        "years":2,
+        "exp":85,
+        "desc":"",
+        "projects":[]
+    },
+    "Java":
+    {
+        "text":"Java was the first programming language I learned, powerful and simple. ",
+        "companny_list":[],
+        "description":"Java is a programming language and computer platform that was first commercialized in 1995 by Sun Microsystems.",
+        "years":2,
+        "exp":70,
+        "desc":"With it I practiced interfaces, logic and unit tests with Selenium.",
+        "projects":[]
+    },
+    "Laravel":
+    {
+        "text":"Laravel is without a doubt my favorite Backend Framework, the way it implements the MVC model is unique.",
+        "companny_list":[],
+        "description":"Laravel is a web application framework with expressive, elegant syntax.",
+        "years":0,
+        "exp":60,
+        "desc":"Laravel definitely takes advantage of all that php offers to create a unique framework, the javascript version is comparable to Adonis.js.",
+        "projects":
+        [
+            {
+                "name":"Food Folks",
+                "description":"My team and I worked on this backend system for a website made with Vue & Vuetify",
+                "url":"https://github.com/Manuel098/restaurante-back",
+                "img":
+                [
+                    "./images/laravel/laravel.png"
+                ]
+            }
+        ]   
+    },
+    "MySql":
+    {
+        "text":"Together with MySQL Workbench to import SQL and generate relationship models is a very good tool to work with.",
+        "companny_list":
+        [            
+            {
+                "name":"Centro de salud #2",
+                "img":
+                [
+                    "./images/dot_net/farmacia/farmacia1.png",
+                    "./images/dot_net/farmacia/farmacia2.png",
+                    "./images/dot_net/farmacia/farmacia3.png"
+                ],
+                "description":"I decided to use MySql as it is a local database shared between the local computers.",
+                "tools":["C#","MySQL","WinForms","Visual Studio"]
+            },
+            {
+                "name":"Dental Space",
+                "img":
+                [
+                    "./images/mysql/mysql1.png"
+                ],
+                "description":"I decided to use MySql because I found all the benefits of queries and relationships.",
+                "tools":["C#","MySQL","WinForms","Visual Studio"]
+            }          
+        ],
+        "description":"MySQL is a relational database management system and is considered to be the world's most popular open source database.",
+        "years":4,
+        "exp":80,
+        "desc":"",
+        "projects":[]
+    },
+    "Vuejs":
+    {
+        "text":"Vue.js is one of the Front-End frameworks that I like the most, its ease to save code makes it unique.",
+        "companny_list":
+        [            
+            {
+                "name":"UJED",
+                "img":
+                [
+                    "./images/vue/cele/cele0.png",
+                    "./images/vue/cele/cele1.png",
+                    "./images/vue/cele/cele2.png",
+                    "./images/vue/cele/cele3.png",
+                    "./images/vue/cele/cele4.png"
+                ],
+                "description":"I developed the language center website. My job was to bring to reality the AdobeXD design of another colleague and consume the data from the Django's API.",
+                "tools":["AdobeXD","Vue.js","Sass","Django","PostgreSQL"]
+            }         
+        ],
+        "description":"Vue is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable.",
+        "years":1,
+        "exp":80,
+        "desc":"",
+        "projects":
+        [
+            {
+                "name":"Food Folks",
+                "description":"My team and I made a website for a restaurant, this helps to control the products, generate a ticket and more.",
+                "url":"",
+                "img":
+                [
+                    "./images/vue/food/food0.png",
+                    "./images/vue/food/food1.png",
+                    "./images/vue/food/food2.png",
+                    "./images/vue/food/food3.png"
+                ]
+            }
+        ]       
+    },
+    "React":
+    {
+        "text":"React is an easy to understand mobile development framework that uses web technologies.",
+        "companny_list":[],
+        "description":"React is an open source Javascript library designed to create user interfaces with the goal of facilitating the development of single-page applications. ",
+        "years":1,
+        "exp":80,
+        "desc":"",
+        "projects":[]
+    },
+    "Python":
+    {
+        "text":"Python is an extremely easy language to learn, I have used it in programming competitions for my university and the time I saved coding was quite a lot.",
+        "companny_list":[],
+        "description":"Python is an interpreted programming language whose philosophy emphasizes the readability of its code.",
+        "years":1,
+        "exp":70,
+        "desc":"",
+        "projects":[]
+    },
+    "DotNet":
+    {
+        "text":".Net is a framework that I have used for several things, from school exercises to business programs.",
+        "companny_list":
+        [            
+            {
+                "name":"Centro de salud #2",
+                "img":
+                [
+                    "./images/dot_net/farmacia/farmacia1.png",
+                    "./images/dot_net/farmacia/farmacia2.png",
+                    "./images/dot_net/farmacia/farmacia3.png"
+                ],
+                "description":"I developed a program to manage patients and control the clinic's medications.",
+                "tools":["C#","MySQL","WinForms","Visual Studio"]               
+            },
+            {
+                "name":"Dental Space",
+                "img":
+                [
+                    "./images/dot_net/dental_space/dental1.png",
+                    "./images/dot_net/dental_space/dental2.png",
+                    "./images/dot_net/dental_space/dental3.png"
+                ],
+                "description":"I developed a program to manage suppliers, control inventory, control customer orders and manage product pricing.",
+                "tools":["C#","MySQL","WinForms","Visual Studio"]
+            }         
+        ],
+        "description":".NET is a Microsoft framework that emphasizes network transparency, is hardware platform independent and enables rapid application development.",
+        "years":3,
+        "exp":80,
+        "desc":"",
+        "projects":
+        [
+            {
+                "name":"Installer",
+                "description":"I made a installer for the private project 'Food Folks!'",
+                "url":"",
+                "img":
+                [
+                    "./images/dot_net/food_folks/installer1.png",
+                    "./images/dot_net/food_folks/installer2.png"
+                ]
+            },
+            {
+                "name":"Simple IA",
+                "description":"I made a multi-threading program to simulate the shortest path",
+                "url":"",
+                "img":
+                [
+                    "./images/dot_net/ia/ia1.png"
+                ]
+            }
+        ]       
+    },
+    "Electron":
+    {
+        "text":"Using Electron to create a desktop app is a unique and totally different experience than what I was used to with WinForms / WPF.",
+        "companny_list":[],
+        "description":"Electron.js is a platform for developing desktop applications using web technologies (HTML, CSS and JavaScript) created and maintained by Github.",
+        "years":0,
+        "exp":50,
+        "desc":"",
+        "projects":
+        [
+            {
+                "name":"",
+                "description":"",
+                "url":"",
+                "img":
+                [
+                    "",
+                    "",
+                    ""
+                ]
+            }
+        ]      
+    },
+    "Unity":
+    {
+        "text":"This game engine has it all! I did several internships and personal projects with it, among them an online multiplayer.",
+        "companny_list":[],
+        "description":"Unity is a cross-platform video game engine created by Unity Technologies. Unity is available as a development platform for Microsoft Windows, Mac OS, Linux, Windows Vista, Mac OS X and Linux.",
+        "years":3,
+        "exp":90,
+        "desc":"",
+        "projects":
+        [
+            {
+                "name":"Lixenium",
+                "description":"Multiplayer Videogame. Play around the gigant real time equalizer.",
+                "url":"",
+                "img":
+                [
+                    "./images/unity/lixenium/lixenium1.png",
+                    "./images/unity/lixenium/lixenium2.png",
+                    "./images/unity/lixenium/lixenium3.png",
+                    "./images/unity/lixenium/lixenium4.png"
+                ]
+            },
+            {
+                "name":"Among Spikes",
+                "description":"Dodge the enemies and add points around a world of spikes.",
+                "url":"https://play.google.com/store/apps/details?id=mayenstudios.amongspikes&hl=es_419&gl=US",
+                "img":
+                [
+                    "./images/unity/among_spikes/among1.png",
+                    "./images/unity/among_spikes/among2.png"
+                ]
+            }
+        ]      
+    },
+    "AdobeXD":
+    {
+        "text":"Adobe XD is your user interface and experience design solution for building websites and mobile applications.",
+        "companny_list":
+        [            
+            {
+                "name":"UJED",
+                "img":
+                [
+                    "",
+                    "",
+                    ""
+                ],
+                "description":"",
+                "tools":["AdobeXD","Vue.js","Django","PostgreSQL"]
+            }         
+        ],
+        "description":"Adobe XD, or Adobe Experience Design, is a graphics editing tool that works for creating web page and application interfaces.",
+        "years":0,
+        "exp":60,
+        "desc":"",
+        "projects":[]
+    },
+    "Premiere":
+    {
+        "text":"Adobe Premiere is a very powerful video editor that I have worked with to create content.",
+        "companny_list":[],
+        "description":"Adobe Premiere Pro is a video editing software developed by Adobe and published as part of Adobe Creative Cloud.",
+        "years":0,
+        "exp":60,
+        "desc":"Premiere together with After Effects achieve a quality product.",
+        "projects":
+        [
+            {
+                "name":"",
+                "description":"",
+                "url":"",
+                "img":
+                [
+                    "",
+                    "",
+                    ""
+                ]
+            }
+        ]     
+    }
+}

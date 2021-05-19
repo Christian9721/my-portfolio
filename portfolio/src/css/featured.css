@@ -1,0 +1,675 @@
+/*PET INFO*/
+video{outline: 0px;}    
+
+.MobileObj{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 4;
+    pointer-events: none;
+}
+.MobilePet{ }
+.MobileLix{
+    transform: rotate( -90deg );
+    left: 112px;
+    top: -136px;
+}
+.MobileAmong{
+    transform: rotate( -90deg );
+    left: 112px;
+    top: -136px;
+}
+.PetVideo{
+    width: 233px;
+    height: 441px;
+    position: relative;
+    margin-left: 5%;
+    transform-origin: top left 0;
+}
+.PetVideo #firstPetSpan
+{
+    position: absolute;
+    color: whitesmoke;
+    left: 80px;
+    top: 110px;
+    width: 75%;
+    background: -webkit-linear-gradient(  -70deg , #ff7170cf 0%, #ffe57fc2 100%);
+    padding: 0.5rem; 
+    z-index:0;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: #e0e0e040 0px 2px 8px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.PetVideo #firstPetSpan:after
+{ 
+    content: "\025b6";
+    margin-left: 40px;
+    padding-top: 8px;
+    padding-left: 10px;
+    position: absolute;
+    width: 34px;
+    top: 0px;
+    height: 40px;
+    right: 0px;
+    background-color: #e0e0e0;
+    color:#141414;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.PetVideo #firstPetSpan:hover{ left: 220px; }
+.PetVideo > video
+{
+    position: absolute;
+    left: 13px;
+    top: -9px;
+    border-radius: 20%;
+    z-index: 1;
+}
+.PetVideo::before{
+    content: '';
+    width: 208px;
+    height: 360px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background-repeat: no-repeat;
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+    background-size: contain;
+    z-index: 3;
+    border-radius: 30px;
+    mix-blend-mode: hard-light;
+    pointer-events: none;
+    opacity: 0.4;
+    box-shadow: 0 0 38px rgba(0, 195, 255, 0.5);
+}/*
+.PetVideo::after{
+    content: '';
+    background-image: url(../images/featured/cel2.svg);
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 4;
+    pointer-events: none;
+}*/
+.PetInfo
+{
+    width: 50%;
+    height: fit-content;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+.PetInfo > h3{color: white;}
+.PetInfo > p{
+    color: #a8a8a8; 
+}
+.PetInfo > div
+{
+    color: #d5d5d5;
+    margin-top: 90px;
+    text-align: justify;
+}
+.PetInfo  span
+{
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    background-image: url(../images/featured/flutter.svg);
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+/*lixenium*/
+
+.LixVideo{
+    width: 233px;
+    height: 441px;
+    position: relative;
+    margin-left: 5%;
+    margin-bottom: -90px;
+    transform-origin: top left 0;
+}
+.LixVideo #firstLixSpan
+{
+    position: absolute;
+    color: whitesmoke;
+    left: 245px;
+    top: 110px;
+    width: 75%;
+    background: -webkit-linear-gradient(  -70deg , #ff7170cf 0%, #ffe57fc2 100%);
+    padding: 0.5rem; 
+    z-index:0;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: #e0e0e040 0px 2px 8px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.LixVideo #firstLixSpan:after
+{ 
+    content: "\025b6";
+    margin-left: 40px;
+    padding-top: 8px;
+    padding-left: 10px;
+    position: absolute;
+    width: 34px;
+    top: 0px;
+    height: 40px;
+    right: 0px;
+    background-color: #e0e0e0;
+    color:#141414;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.LixVideo #firstLixSpan:hover{ left: 385px; }
+.LixVideo > video
+{
+    position: absolute;
+    top: -112px;
+    left: 20px;
+    border-radius: 150px;
+    z-index: 1;
+    width: 360px;
+}
+.LixVideo::before{
+    content: '';
+    width: 208px;
+    height: 355px;
+    position: absolute;
+    left: 96px;
+    top: -88px;
+    background-repeat: no-repeat;
+    background: linear-gradient(238deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+    background-size: contain;
+    z-index: 3;
+    border-radius: 20px;
+    mix-blend-mode: color-burn;
+    pointer-events: none;
+    opacity: 0.5;
+    transform: rotate( 270deg);
+    box-shadow: 0 0 38px rgb(255 0 164 / 50%);
+}/*
+.LixVideo::after{
+    content: '';
+    background-image: url(../images/featured/cel2.svg);
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    left: 112px;
+    top: -137px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 4;
+    pointer-events: none;
+    transform: rotate( 270deg);
+}*/
+.LixInfo
+{
+    width: 50%;
+    height: fit-content;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+.LixInfo > h3
+{
+    color: white;
+    margin-left: 160px;
+}
+.LixInfo > div
+{
+    color: #d5d5d5;
+    margin-top: 140px;
+    position: relative;
+    left: -243px;
+    width: 100%;
+    text-align: justify;
+}
+.LixInfo > p{
+    color: #a8a8a8; 
+    margin-top: 10px;
+    position: relative;
+    margin-left: 160px;
+}
+.LixInfo  span
+{
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    background-image: url(../images/featured/unity.svg);
+    background-repeat: no-repeat;
+    margin-left: 17px;
+    margin-top: 0px;
+    background-size: contain;
+    filter: invert(1);
+}
+/*AmongSpikes*/
+
+.AmongVideo{
+    width: 233px;
+    height: 441px;
+    position: relative;
+    margin-left: 5%;
+    transform-origin: top left 0;
+}
+.AmongVideo #firstAmongSpan
+{
+    position: absolute;
+    color: whitesmoke;
+    left: 245px;
+    top: 110px;
+    width: 75%;
+    background: -webkit-linear-gradient( 95deg ,#76d4f8,#3b94ffed);
+    padding: 0.5rem; 
+    z-index:0;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: #e0e0e040 0px 2px 8px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.AmongVideo #firstAmongSpan:after
+{ 
+    content: "\025b6";
+    margin-left: 40px;
+    padding-top: 8px;
+    padding-left: 10px;
+    position: absolute;
+    width: 34px;
+    top: 0px;
+    height: 40px;
+    right: 0px;
+    background-color: #e0e0e0;
+    color:#141414;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.AmongVideo #firstAmongSpan:hover{ left: 385px; }
+.AmongVideo > video
+{
+    position: absolute;
+    top: -112px;
+    left: 20px;
+    border-radius: 150px;
+    z-index: 1;
+    width: 360px;
+}
+.AmongVideo::before{
+    content: '';
+    width: 208px;
+    height: 355px;
+    position: absolute;
+    left: 96px;
+    top: -88px;
+    background-repeat: no-repeat;
+    background: linear-gradient(238deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+    background-size: contain;
+    z-index: 3;
+    border-radius: 20px;
+    mix-blend-mode: hue;
+    opacity: 0.5;
+    pointer-events: none;
+    transform: rotate( 270deg);
+    box-shadow: 0 0 38px rgba(255, 255, 255, 0.5);
+}/*
+.AmongVideo::after{
+    content: '';
+    background-image: url(../images/featured/cel2.svg);
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    left: 112px;
+    top: -137px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 4;
+    pointer-events: none;
+    transform: rotate( 270deg);
+}*/
+.AmongInfo
+{
+    width: 50%;
+    height: fit-content;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+.AmongInfo > h3
+{
+    color: white;
+    margin-left: 160px;
+}
+.AmongInfo > div
+{
+    color: #d5d5d5;
+    margin-top: 140px;
+    position: relative;
+    left: -243px;
+    width: 100%;
+    text-align: justify;
+}
+.AmongInfo > p{
+    color: #a8a8a8; 
+    margin-top: 10px;
+    position: relative;
+    margin-left: 160px;
+}
+.AmongInfo  span
+{
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    background-image: url(../images/featured/unity.svg);
+    background-repeat: no-repeat;
+    margin-left: 17px;
+    margin-top: 0px;
+    background-size: contain;
+    filter: invert(1);
+}
+/*Pet*/
+@media(max-width:628px)
+{
+    .PetInfo{ margin-top: -50px; }
+    .PetInfo > div
+    {
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+    .PetVideo #firstPetSpan
+    {
+        left: 83px;
+    }
+    .PetVideo #firstPetSpan:hover{left: 220px;}
+}
+@media(max-width:445px)
+{
+    .PetInfo > div { margin-top: 70px; }
+    .PetVideo #firstPetSpan::after{content: none;}
+    .PetVideo #firstPetSpan
+    {
+        left: 15px;
+        top: 463px;
+        border-radius: 15px;
+        padding: 0.1rem;
+        text-align: center;
+    }
+    .PetVideo #firstPetSpan:hover{left: 15px;}
+}
+/*Lix*/
+@media(max-width:670px)
+{
+    .LixVideo{margin-bottom: 0;}
+    .LixInfo{ display: contents; }
+    .LixInfo > h3
+    {
+        position: absolute;
+        margin-top: 205px;
+        left: -40px;
+    }
+    .LixInfo > p
+    {
+        position: absolute;
+        margin-top: 205px !important;
+        margin-left: 220px;
+    }
+    .LixInfo > div
+    {
+        margin-top: -130px;
+        position: relative;
+        margin-left: 45px;
+        margin-right: 145px;
+        left: 0;
+    }
+    .LixVideo #firstLixSpan{
+        position: absolute;
+        color: whitesmoke;
+        left: 0;
+        top: 128px;
+        width: 155%;
+        padding: 0.1rem;
+        z-index: 0;
+        cursor: context-menu;
+        transition: 0.5s;
+        box-shadow: #e0e0e040 0px 2px 8px;
+        border-radius: 10px;
+        margin-top: 140px;
+        margin-left: 22px;
+        text-align: center;
+    }
+    .LixVideo #firstLixSpan::after{content: none;}
+    .LixVideo #firstLixSpan:hover{ left: 0; }
+}
+@media(max-width:500px)
+{
+    .LixVideo
+    {
+        width: 160px;
+        margin-left: 50px;
+    }
+    .LixVideo::before
+    {
+        content: '';
+        width: 148px;
+        height: 263px;
+        position: absolute;
+        left: 36px;
+        top: -45px;
+        background-repeat: no-repeat;
+        background: linear-gradient(238deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+        background-size: contain;
+        z-index: 3;
+        border-radius: 20px;
+        mix-blend-mode: color-burn;
+        opacity: 0.5;
+        pointer-events: none;
+        transform: rotate( 270deg);
+    }/*
+    .LixVideo::after{
+        content: '';
+        width: 247px;
+        height: 318px;
+        left: 7px;
+        top: -117px;
+        pointer-events: none;
+    }*/
+    .MobileLix{
+        width: 72%;
+        height: 72%;
+        left: 74px;
+        top: -52px;
+    }
+    .LixVideo > video
+    {
+        position: absolute;
+        top: -117px;
+        border-radius: 40%;
+        left: -19px;
+        z-index: 1;
+        width: 257px;
+    }
+    .LixVideo #firstLixSpan
+    {
+        margin-left: 0;
+        left: -20px;
+        width: 160%;
+    }
+    .LixVideo #firstLixSpan:hover{ left: -20px; }
+    .LixInfo > h3 
+    {
+        margin-left: 95px;
+        margin-top: 195px;
+        left: 0;
+    }
+    .LixInfo > div
+    {
+        margin-left: 31px;
+        margin-right: 60px;
+    }
+    .LixInfo > p
+    {
+        margin-left: 200px;
+        margin-top: 185px !important;
+    }
+    .LixInfo span{
+        margin-left: -81px;
+        margin-top: 22px;
+    }
+}
+/*Among*/
+@media(max-width:710px)
+{
+    
+    .AmongInfo{ display: contents; }
+    .AmongInfo > h3
+    {
+        position: absolute;
+        margin-top: 205px;
+        left: -40px;
+    }
+    .AmongInfo > p
+    {
+        position: absolute;
+        margin-left: 265px;
+        margin-top: 208px !important;
+    }
+    .AmongInfo > p.span
+    {
+        margin-left: 10px;
+    }
+    .AmongInfo > div
+    {
+        margin-top: -130px;
+        position: relative;
+        margin-left: 45px;
+        margin-right: 145px;
+        left: 0;
+    }
+    .AmongVideo #firstAmongSpan{
+        position: absolute;
+        color: whitesmoke;
+        left: 0;
+        top: 110px;
+        width: 155%;
+        padding: 0.1rem;
+        z-index: 0;
+        cursor: context-menu;
+        transition: 0.5s;
+        box-shadow: #e0e0e040 0px 2px 8px;
+        border-radius: 10px;
+        margin-top: 140px;
+        margin-left: 22px;
+        text-align: center;
+    }
+    .AmongVideo #firstAmongSpan::after{content: none;}
+    .AmongVideo #firstAmongSpan:hover{ left: 0; }
+
+    .LixInfo span{
+        margin-left: -85px;
+        margin-top: 25px;
+    }
+}
+@media(max-width:500px)
+{
+    .AmongVideo
+    {
+        width: 160px;
+        margin-left: 50px;
+    }
+    .AmongVideo::before
+    {
+        content: '';
+        width: 148px;
+        height: 263px;
+        position: absolute;
+        left: 36px;
+        top: -45px;
+        background-repeat: no-repeat;
+        background: linear-gradient(238deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+        background-size: contain;
+        z-index: 3;
+        border-radius: 20px;
+        mix-blend-mode: hue;
+        opacity: 0.5;
+        transform: rotate( 270deg);
+        pointer-events: none;
+    }/*
+    .AmongVideo::after{
+        content: '';
+        width: 247px;
+        height: 318px;
+        left: 7px;
+        top: -117px;
+        pointer-events: none;
+    }*/
+    .MobileAmong{
+        width: 72%;
+        height: 72%;
+        left: 74px;
+        top: -52px;
+    }
+    .AmongVideo > video
+    {
+        position: absolute;
+        top: -117px;
+        border-radius: 40%;
+        left: -19px;
+        z-index: 1;
+        width: 257px;
+    }
+    .AmongVideo #firstAmongSpan
+    {
+        margin-left: 0;
+        left: -20px;
+        width: 160%;
+    }
+    .AmongVideo #firstAmongSpan:hover{ left: -20px; }
+    .AmongInfo > h3 
+    {
+        margin-left: 95px;
+        left: 0;
+    }
+    .AmongInfo > div
+    {
+        margin-left: 31px;
+        margin-right: 60px;
+    }
+    .AmongInfo > p
+    {
+        margin-left: 250px;
+        margin-top: 197px !important;
+    }
+    .AmongInfo span{
+        margin-left: -81px;
+        margin-top: 22px;
+    }
+}
+
+@media(max-width:360px)
+{
+    .PetInfo > p{
+        margin-top: 10px;
+        top: -70px;
+        left: 115px;
+        position: relative;
+    }
+    .PetInfo span {
+        margin-left: -85px;
+        margin-top: 25px;
+    }
+}
+@media(max-width:420px){
+    .AmongInfo > p {
+        margin-left: 31px;
+        margin-top: 236px !important;
+    }
+    .AmongVideo #firstAmongSpan {
+        margin-top: 180px;
+    }
+    .AmongInfo > div {
+        margin-top: -110px;
+        margin-bottom: 10px;
+    }
+}

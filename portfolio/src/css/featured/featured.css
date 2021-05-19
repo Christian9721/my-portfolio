@@ -1,0 +1,31 @@
+.mainfeatured{
+    background: #141414 !important;
+    position: absolute;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    overflow-x: hidden;
+}
+hr{
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #141414 ;
+    border: #2e2e2e 1px solid;
+    background-clip: padding-box;  
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
